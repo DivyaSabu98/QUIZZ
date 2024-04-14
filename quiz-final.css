@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(3.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#timer {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quiz {
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.quiz_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.quiz_user {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.quiz_body {
+    padding: 20px 30px;
+    background-color: skyblue;
+}
+
+.option_group {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.option {
+    display: block;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 2px solid #341f97;
+    color: #341f97;
+}
+
+.option.active {
+    background-color: #341f97;
+    color: #fff;
+}
+
+.btn-next {
+    border: none;
+    padding: 15px 35px;
+    background-color: #341f97;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.btn-next:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #000;
+}
+
+.award_icon {
+    display: block;
+    font-size: 300px;
+    color: #fff;
+}
+
+.username,
+.userpoints {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.border {
+    height: 500px;
+    width: 500px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto; /* Center the border div */
+    border-radius: 10px;
+    top: 100px;
+    border-color: transparent;
+}
+
+/* Styles for Spatial Reasoning images */
+.quiz_body img {
+    display: block;
+    margin: 0 auto;
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.creative_input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px; /* Increase the top margin */
+    margin-bottom: 10px; /* Add margin at the bottom if needed */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+         /* Add CSS styles for the background images */
+         .section1 {
+            background-image: url('BGDsection1.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+/* Style for the submit button */
+.quiz_body .submit-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+    

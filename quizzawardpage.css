@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section1 {
+    background-image: url('BGDsection1.png');
+    background-size: 100% 100%; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    width: 100vw; /* Set width to cover the entire viewport width */
+    height: 100vh; /* Set height to fit the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.wrapper {
+    text-align: center;
+}
+
+.user-scores {
+    margin-top: 20px;
+}
+
+.border {
+    border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+}
+
+.username {
+    font-size: 30px;
+}
+
+.userpoints {
+    font-size: 20px;
+}
+
+h1, p {
+    margin: 10px 0;
+}
